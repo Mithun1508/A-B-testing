@@ -51,8 +51,6 @@ In practical terms, what Google Optimize describe as a A/B test will be best sui
 
 During the technical spike we created an experiment that showed 50% of visitors teal buttons and 50% of visitors black buttons with a teal border:
 
-![A/B Test in Google Optimize](a-b-optimize.png)
-
 #### Information for developers
 
 This was achieved via the Google Optimize dashboard by creating a variant and assigning the related CSS styles. Each 'experiment' requires an amendment to the Google Analytics code snippet on the corresponding page. For example, the A/B test above needed an additional `require()`, a new `<style>` block and a new `(function(a,s,y,n,c,h,i.d.e) { ... })` call: 
