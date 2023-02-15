@@ -15,8 +15,6 @@ This process is structured around the types of A/B testing described in the [Web
 
 A flowchart showing the overall process we are currently working with is [available for download in PDF format](testing-process.pdf) and shown below: 
 
-![Process for conducting an A/B Test](testing-process.png)
-
 This can and should be updated to reflect what we learn from running further experiments.
 
 ## Google Optimize
@@ -95,4 +93,3 @@ In practical terms within a CMS environment, the **Redirect Test will allow us t
 
 During the technical spike we created a Google Optimize experiment that redirected 80% of users to a different page (within a `/new/` directory) that has a different layout.
 
-![Redirect Test in Google Optimize](redirect-optimize.png)
